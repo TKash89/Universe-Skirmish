@@ -18,7 +18,10 @@ const App = () => {
   ])
 
 const handleGameplay= (index) =>{
-    alert(index)
+   // alert(index)
+   let updatedBoard = [...board]
+   updatedBoard[index] = "🏴‍☠️"
+   setBoard(updatedBoard)
 }
 
 
