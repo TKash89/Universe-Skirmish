@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  
 }
 
 .square {
@@ -9,6 +10,7 @@ h1 {
   font: 150px;
   font-size: 150px;
   text-align: center;
+  font-size: 150px;
 }
 .gameboard{
   display: flex;

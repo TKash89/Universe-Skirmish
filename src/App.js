@@ -21,6 +21,7 @@ const App = () => {
    
 
 const handleGameplay= (index) =>{
+
     let updatedBoard = [...board]
     if(index === treasureLocation){
       updatedBoard[index] = "🏆"
@@ -32,6 +33,8 @@ const handleGameplay= (index) =>{
       updatedBoard[index] = "🏴‍☠️"
       setBoard(updatedBoard)
     }
+
+   
 }
 
 const pageRefresh = () => {
