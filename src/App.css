@@ -8,6 +8,7 @@ h1 {
   width: 200px;
   border: 1px solid black;
   font: 150px;
+  font-size: 150px;
   text-align: center;
   font-size: 150px;
 }
@@ -17,3 +18,11 @@ h1 {
   width: 620px;
   margin: 0 auto;
 }
+
+.resetbutton{
+  text-align: center;
+  font-size: 70px;
+  font: 100;
+  
+}
+
