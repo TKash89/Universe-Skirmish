@@ -26,8 +26,10 @@ const handleGameplay= (index) =>{
     if(index === treasureLocation){
       updatedBoard[index] = "🏆"
       setBoard(updatedBoard)
+      return alert("YOU WIN")
+      
     } else if(index === bombLocation){
-      updatedBoard[index] = "🧨"
+      updatedBoard[index] = "🚀"
       setBoard(updatedBoard)
     } else{
       updatedBoard[index] = "🏴‍☠️"
@@ -54,7 +56,7 @@ const pageRefresh = () => {
 
   return (
     <>
-      <h1>Treasure Hunt Game</h1>
+      <h1>Universe Skirmish</h1>
       <div className="gameboard">
       {board.map((value, index) => {
        return (

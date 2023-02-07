@@ -1,16 +1,26 @@
 h1 {
   text-align: center;
-  
-}
+  color: yellow;
+  font-style: oblique; 
+  text-shadow: 2px 2px;
+  text-decoration-style: wavy;
+  font-size: 60px;
+} 
+body {
+  background-image: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?cs%3Dsrgb%26dl%3D4k-wallpaper-astro-astrology-1146134.jpg%26fm%3Djpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
 
+}
 .square {
   height: 200px;
   width: 200px;
-  border: 1px solid black;
+  border: 1px solid rgb(242, 246, 0);
   font: 150px;
   font-size: 150px;
   text-align: center;
   font-size: 150px;
+  color:antiquewhite
 }
 .gameboard{
   display: flex;
@@ -21,6 +31,7 @@ h1 {
 
 .resetbutton{
   text-align: center;
+  flex-wrap: wrap;
   font-size: 70px;
   font: 100;
   

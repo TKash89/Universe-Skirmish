@@ -3,7 +3,6 @@ import React from "react"
 const Square = (props) => {
 
   const handleClick =() => {
-    // alert(props.index)
     props.handleGameplay(props.index)
   }
   return (
