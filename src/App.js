@@ -26,7 +26,7 @@ const handleGameplay= (index) =>{
     if(index === treasureLocation){
       updatedBoard[index] = "🏆"
       setBoard(updatedBoard)
-      return alert("YOU WIN")
+      return pageRefresh
       
     } else if(index === bombLocation){
       updatedBoard[index] = "🚀"
