@@ -1,3 +1,3 @@
-🚀 Universe Skirmish Match Game
+# 🚀 Universe Skirmish Match Game
 
-The classic match game with some space styling.
+### The classic match game with some space styling.
